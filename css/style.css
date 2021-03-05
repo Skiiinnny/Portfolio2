@@ -8,7 +8,13 @@
 
 body {
     font-family: 'Lato', sans-serif;
-    color: #41484b;
+    color: #d8e9f0;
+    background: #141E30;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 /* Heder */
@@ -22,7 +28,7 @@ body {
 }
 
 #homeFullScreen {
-    background-image: url('../images/Header2.png');
+    background-image: url('../images/background-img2.png');
     overflow: hidden;
 }
 
@@ -35,13 +41,13 @@ body {
 
 .header-text h1 {
     font-size: 60px;
-    color: #212121;
+    color: #d8e9f0;
     text-transform: uppercase;
 }
 
 .header-text .vertical-line {
     height: 2px;
-    background-color: #212121;
+    background-color: #d8e9f0;
     width: 150px;
     margin: 0 auto;
     margin-top: 15px;
@@ -50,7 +56,7 @@ body {
 
 .header-text p {
     font-size: 26px;
-    color: #212121;
+    color: #d8e9f0;
 }
 
 /* feature */
@@ -176,7 +182,7 @@ footer .copyright {
     }
     .header-text p {
         font-size: 20px;
-        color: #212121;
+        color: #d8e9f0;
     }
     .feature-box {
         padding: 0px;
@@ -235,7 +241,7 @@ footer .copyright {
     }
     .header-text p {
         font-size: 20px;
-        color: #212121;
+        color: #d8e9f0;
     }
     .feature-box h1 {
         font-size: 25px;
@@ -310,7 +316,7 @@ footer .copyright {
     /* Typography CSS */
     body {
         font-family: 'Lato', sans-serif;
-        color: #41484b;
+        color: #d8e9f0;
     }
     /* Heder */
     #homeFullScreen {
@@ -321,7 +327,7 @@ footer .copyright {
         background-position: top center;
     }
     #homeFullScreen {
-        background-image: url('../images/Header2.png');
+        background-image: url('../images/background-img2.png');
         overflow: hidden;
     }
     #homeFullScreen {
@@ -332,20 +338,19 @@ footer .copyright {
     }
     .header-text h1 {
         font-size: 60px;
-        color: #212121;
+        color: #d8e9f0;
         text-transform: uppercase;
     }
     .header-text .vertical-line {
         height: 2px;
-        background-color: #212121;
-        width: 150px;
+        background-color: #d8e9f0;
         margin: 0 auto;
         margin-top: 15px;
         margin-bottom: 30px;
     }
     .header-text p {
         font-size: 26px;
-        color: #212121;
+        color: #d8e9f0;
     }
     /* feature */
     .feature img {
